@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.Appbackground{
+  height: 750px;
+  width:100%;
+  padding-top:10px;
+  background-color: dodgerblue;
+}
+
+.App{
+  height:550px;
+  width:450px;
+  background-color: white;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1{
+  text-align: center;
+  color: blue;
+  text-shadow: 3px 1px dodgerblue;
+  font-size: 35px;
+  
+}
+
+.inputDiv{
+  height: 40px;
+  width: 360px;
+  margin: auto;
+  padding-top: 4px;
+
+}
+
+input{
+  height:40px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-size: 20px;
+  color: rgb(57, 23, 208);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+input::placeholder{
+  padding-left: 3px;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(210, 210, 210);
+}
+
+button{
+  height: 43px;
+  width:43px;
+  font-size: 18px;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 0px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.listDiv{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 333px;
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: dodgerblue;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.todoInpDiv{
+  height: 370px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.CtodoInpDiv{
+  height: auto;
+  overflow: scroll;
+  padding-left: 30px;
+  overflow-x: hidden;
+  
+}
+
+
+.mainDiv{
+
+  display: flex;
+  margin-top: 10px;
+
+
+}
+
+p{
+  margin-top: 0px;
+  margin-left: 5px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.checkBox{
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  border: 2px solid teal;
+  padding-bottom:5px;
+  padding-top:-5px;
+  padding-left:3px;
+  color: seagreen;
+  font-weight: 600;
+}
+
+.showC{
+  width:220px;
+  text-align: center;
+  color: grey;
+  margin-top: 10px;
+  margin-left: 110px;
+  margin-right: auto;
+  font-weight: 500;
+  border: 0.5px solid silver;
+}
+
+.showC:hover{
+  color: seagreen;
+  cursor: pointer;
+}
+
+.showCDiv{
+  height:auto;
+  width:450px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
